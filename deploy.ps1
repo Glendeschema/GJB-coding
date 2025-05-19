@@ -8,4 +8,3 @@ new-azvm -Name "MyResourceGroup" -Location "East US" -ImageName "WindowsServer" 
 -PublicIpAddressName "MyPublicIP" `
 -SecurityGroupName "MyNSG" -OpenPorts 80,443
 
-# This script creates a new Azure VM with the specified parameters.
